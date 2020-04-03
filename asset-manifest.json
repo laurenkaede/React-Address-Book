@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Address-Book/static/css/main.3b9b05a1.chunk.css",
+    "main.js": "/React-Address-Book/static/js/main.c53c17fe.chunk.js",
+    "main.js.map": "/React-Address-Book/static/js/main.c53c17fe.chunk.js.map",
+    "runtime-main.js": "/React-Address-Book/static/js/runtime-main.a216bb5e.js",
+    "runtime-main.js.map": "/React-Address-Book/static/js/runtime-main.a216bb5e.js.map",
+    "static/js/2.52efe9fa.chunk.js": "/React-Address-Book/static/js/2.52efe9fa.chunk.js",
+    "static/js/2.52efe9fa.chunk.js.map": "/React-Address-Book/static/js/2.52efe9fa.chunk.js.map",
+    "index.html": "/React-Address-Book/index.html",
+    "precache-manifest.bf151a94dd776a6ca29b8ca5017fd063.js": "/React-Address-Book/precache-manifest.bf151a94dd776a6ca29b8ca5017fd063.js",
+    "service-worker.js": "/React-Address-Book/service-worker.js",
+    "static/css/main.3b9b05a1.chunk.css.map": "/React-Address-Book/static/css/main.3b9b05a1.chunk.css.map",
+    "static/js/2.52efe9fa.chunk.js.LICENSE.txt": "/React-Address-Book/static/js/2.52efe9fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a216bb5e.js",
+    "static/js/2.52efe9fa.chunk.js",
+    "static/css/main.3b9b05a1.chunk.css",
+    "static/js/main.c53c17fe.chunk.js"
+  ]
+}
