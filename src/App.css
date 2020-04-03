@@ -1,38 +1,100 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Oxanium&display=swap");
+
+* {
+  margin: 20px;
+}
+
+
+body {
+  background-image: linear-gradient(to left, #9bebc9, #00cad6, #00a1e8, #2e6cd8, #8e0d90);
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Oxanium", cursive;
+  background-color: rgb(217, 248, 232);
+  border: 3px solid rgb(240, 49, 198);
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: 900;
+  color:  #8e0d90;
+  text-shadow: 1px 1px 1px rgb(204, 199, 199), 3px 3px 8px rgb(164, 132, 170);
+}
+
+h2 {
+  font-family: "Calligraffitti", cursive;
+  color: rgb(240, 49, 198);
+  font-size: 36px; 
+  text-shadow: 1px 1px 1px rgb(66, 66, 66), 3px 3px 8px rgb(164, 132, 170);
+}
+
+p {
+  font-family: "Oxanium", cursive;
+  font-size: 26px;
+  color: rgb(76, 173, 152);
+  text-shadow: 1px 1px 1px rgb(66, 66, 66), 3px 3px 8px rgb(164, 132, 170);
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(217, 248, 232);
+  max-width: 768px;
+  border: 3px solid rgb(240, 49, 198);
+  border-radius: 5px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+  
+}
+
+.header {
+  text-align: center;
+  max-width: 768px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 30%;
+  flex-direction: column;
+}
+
+.numInput {
+  font-family: "Oxanium", cursive;
+  width: 250px;
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid rgb(240, 49, 198);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.nameInput {
+  font-family: "Oxanium", cursive;
+  width: 250px;
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid rgb(240, 49, 198);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contactBtn {
+  font-family: "Oxanium", cursive;
+  background-color: rgb(240, 49, 198);
+  max-width: fit-content;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-shadow: 1px 1px 1px rgb(66, 66, 66), 3px 3px 8px rgb(164, 132, 170);
+  font-weight: 600;
+  border-radius: 5px;
+  border: 2px solid white;
 }
